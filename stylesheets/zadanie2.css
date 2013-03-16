@@ -62,3 +62,35 @@ table.XVIw#XVIw-2 tr:nth-child(even) td:nth-child(even), table.XVIw#XVIw-2 tr:nt
 	background: #BF1575;
 	color: white;
 }
+
+
+table.Chart td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:none;
+}
+table.Chart tr:nth-child(2n-1) td:nth-child(3){
+	border-bottom:1px solid black;
+}
+table.Chart tr:nth-child(4n+2) td:nth-child(3), table.Chart tr:nth-child(4n+3) td:nth-child(3){
+	border-left:1px solid black;	
+}
+
+
+table.Chart tr:nth-child(4n-2) td:nth-child(2){
+	border-bottom:1px solid black;
+}
+table.Chart tr:nth-child(8n-5) td:nth-child(2), table.Chart tr:nth-child(8n-4) td:nth-child(2), table.Chart tr:nth-child(8n-3) td:nth-child(2), table.Chart tr:nth-child(8n-2) td:nth-child(2){
+	border-left:1px solid black;	
+}
+
+table.Chart tr:nth-child(8n-4) td:nth-child(1){
+	border-bottom:1px solid black;
+}
+
+table.Chart#Chart-2 td{
+	background: #15ABBF;
+	border-color: white;
+	color: #071266;
+}
