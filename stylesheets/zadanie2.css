@@ -39,3 +39,26 @@ table.kurczaki#kurczaki-2 td{
 table.kurczaki#kurczaki-2 tr:nth-child(even) td{
 	background: lightyellow;
 }
+
+table.XVIw td{
+	color: black;
+	border: none;
+	vertical-align: top;
+	width: auto;
+	font-weight: normal;
+	text-align: left;
+	padding: 2px 5px;
+}
+
+table.XVIw td:nth-child(3), table.XVIw td:nth-child(6){
+	text-align: right;
+}
+
+table.XVIw td:first-child, table.XVIw td:nth-child(4){
+	font-style: italic;
+}
+
+table.XVIw#XVIw-2 tr:nth-child(even) td:nth-child(even), table.XVIw#XVIw-2 tr:nth-child(odd) td:nth-child(odd){
+	background: #BF1575;
+	color: white;
+}
