@@ -1,0 +1,41 @@
+table.kurczaki thead td{
+	font-style: italic;
+	font-weight:normal;
+	color: black;
+}
+
+
+table.kurczaki td{
+	text-align:center;
+	width: auto;
+	border: none;
+} 
+
+table.kurczaki td:first-child{
+	text-align:right;
+}
+
+table.kurczaki tbody td:first-child{
+	font-weight:bold;
+}
+
+table.kurczaki tbody td:nth-child(2){
+	font-style: italic;
+}
+table.kurczaki td:last-child{
+	text-align:left;
+}  
+
+
+table.kurczaki#kurczaki-2 thead td{
+	background: lightblue;
+}
+
+
+table.kurczaki#kurczaki-2 td{
+	background: lightgreen;
+} 
+
+table.kurczaki#kurczaki-2 tr:nth-child(even) td{
+	background: lightyellow;
+}
