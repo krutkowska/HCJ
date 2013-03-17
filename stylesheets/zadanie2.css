@@ -63,16 +63,76 @@ table.XVIw#XVIw-2 tr:nth-child(even) td:nth-child(even), table.XVIw#XVIw-2 tr:nt
 	color: white;
 }
 
-
-table.Chart td{
+table.Populacja td{
 	width:auto;
 	color:black;
 	padding:2px 8px;
 	border:none;
 }
+
+table.Populacja thead td{
+	font-style: italic;
+	font-weight: normal;
+	border:1px solid black;
+	
+}
+table.Populacja tfoot td{
+	text-align: right;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	
+}
+table.Populacja tbody td{
+	text-align:right;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+/*table.Populacja tbody:last-child td{
+	text-align:right;
+	border-bottom:1px solid black;
+}*/
+table.Populacja#Populacja-2 td{
+	border-color: green;
+	background:#E09B1B;
+}
+
+table.Populacja#Populacja-2 tbody td{
+	border-color: green;
+	background: #CCCAE3;
+}
+
+table.Worksheet td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:none;
+}
+
+table.Worksheet td:first-child{
+	vertical-align: top;
+	text-align: right;
+}
+
+table.Worksheet td:nth-child(2), table.Worksheet td:nth-child(3){
+	text-align: left;
+}
+table.Worksheet td:last-child{
+	text-align: right;
+}
+
+
+table.Chart  td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:none;
+}
+
 table.Chart tr:nth-child(2n-1) td:nth-child(3){
 	border-bottom:1px solid black;
 }
+
 table.Chart tr:nth-child(4n+2) td:nth-child(3), table.Chart tr:nth-child(4n+3) td:nth-child(3){
 	border-left:1px solid black;	
 }
