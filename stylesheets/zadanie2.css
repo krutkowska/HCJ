@@ -88,10 +88,7 @@ table.Populacja tbody td{
 	border-left:1px solid black;
 	border-right:1px solid black;
 }
-/*table.Populacja tbody:last-child td{
-	text-align:right;
-	border-bottom:1px solid black;
-}*/
+
 table.Populacja#Populacja-2 td{
 	border-color: green;
 	background:#E09B1B;
@@ -121,6 +118,53 @@ table.Worksheet td:last-child{
 	text-align: right;
 }
 
+table.Worksheet tr:nth-child(4) td:nth-child(4), table.Worksheet tr:nth-child(3) td:nth-child(3) {
+	text-decoration: underline;
+}
+
+table.Worksheet#Worksheet-2{
+	background: yellow;
+}
+
+table.ATandT {
+	display: inline-table;
+}
+
+table.ATandT td{
+	width:auto;
+	color:black;
+	padding:2px 8px;
+	border:1px solid black;
+	text-align: center;
+}
+
+table.ATandT thead td{
+	text-align: center;
+	font-weight: normal;
+}
+table.ATandT tfoot td{
+	text-align: left;
+	font-weight: normal;
+}
+
+table.ATandT tbody td:first-child{
+	text-align: right;
+}
+
+table.ATandT tbody tr:last-child td:last-child {
+	text-align:right;
+}
+
+
+table.ATandT.color{
+	background: green;
+}
+table.ATandT.wide{
+	width:300px;
+}
+.center{
+	text-align:center;
+}
 
 table.Chart  td{
 	width:auto;
